@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { getWeather } from './services/weatherService';
 import { handleIcon} from './utils/handleIcon';
 
+
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [city, setCity] = useState("New York");
