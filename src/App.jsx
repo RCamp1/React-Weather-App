@@ -31,7 +31,7 @@ return (
       <form onSubmit={handleSubmit}>
         <input className ='input_box' type="text" name="searchCity" id="searchCity" placeholder="ex. New York" value={searchCity} onChange={(e) => setSearchCity(e.target.value)} required/>
         <br></br>
-        <button type="submit">Search for Weather</button>
+        <button type="submit">Search City</button>
       </form>
     </div>
 
